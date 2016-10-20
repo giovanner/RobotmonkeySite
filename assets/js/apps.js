@@ -42,12 +42,12 @@ var handleHeaderNavigationState = function() {
             if (totalScroll >= headerHeight) {
                 $('#header').addClass('navbar-small');
 				$('#logoImg').html( '' );
-				$('#logoImg').prepend('<img src="assets/img/logoBlack.png" alt="Sean Ngu" height="60px" width="60px" />');
+				$('#logoImg').prepend('<img src="assets/img/logoBlack.png" alt="Sean Ngu" height="28%" width="28%" />');
             } else {
                 $('#header').removeClass('navbar-small');
 				$('#logoImg').html( '' );
 			
-				$('#logoImg').prepend('<img src="assets/img/logo.png" alt="Sean Ngu" height="60px" width="60px" />');
+				$('#logoImg').prepend('<img src="assets/img/logo.png" alt="Sean Ngu" height="28%" width="28%" />');
             }
         }
     });
